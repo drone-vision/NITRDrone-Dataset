@@ -22,8 +22,26 @@ DESCRIPTION:<br />
 | utils  | Contains the important files related to dataset preparation  |
 
 ## Sample Images
+<table>
+     
+  <tr>
+    <td>image</td>
+     <td>mask</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/drone-vision/NITRDrone-Dataset/blob/main/readme_images/imgs/NITR_AC_JAN26_30.jpg" width=480 height=270></td>
+    <td><img src="https://github.com/drone-vision/NITRDrone-Dataset/blob/main/readme_images/seg_class/NITR_AC_JAN26_30.png" width=480 height=270></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/drone-vision/NITRDrone-Dataset/blob/main/readme_images/imgs/NITR_FR_1.jpg" width=480 height=270></td>
+    <td><img src="https://github.com/drone-vision/NITRDrone-Dataset/blob/main/readme_images/seg_class/NITR_FR_1.png" width=480 height=270></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/drone-vision/NITRDrone-Dataset/blob/main/readme_images/imgs/NITR_FR_6.jpg" width=480 height=270></td>
+    <td><img src="https://github.com/drone-vision/NITRDrone-Dataset/blob/main/readme_images/seg_class/NITR_FR_6.png" width=480 height=270></td>
+  </tr>
+ </table>
 
-[alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
 
 ## LICENSE:
 
