@@ -68,4 +68,5 @@ This dataset is licenensed to Visual Surveillance Laboratory, Department of Comp
 ## Citation & Acknowledgements
 This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published in the README, please use the following BibTeX entry.
 
-\cite{key}
+
+
