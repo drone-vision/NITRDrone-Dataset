@@ -13,27 +13,50 @@ This is an aerial image dataset for semantic scene understanding and is under de
 | 2019.09.01  | Initialization  |
 | 2021.09.23  |  NITRDD(4) released |
 
+## Dataset Overview:
+-NITRDD
+| class  | GT  | (R, G, B)  |
+|---|---|---|
+| _background_ | 0   | (0, 0, 0)  |
+| road |  1 |  (128, 0, 0) |
+| occluded_road |  2 | (0, 128, 0)  |
+| vegetation |  3 | (128, 128, 0)  |
+## DIrectory Structure:
+```
+NITRDrone Dataset
+│
+└─── readme_images
+│          |
+│          └─── images
+|          |      
+|          └─── seg_class
+|          |        
+|          |   .gitignore
+|          | 
+|          |    frame271.jpg
+|          ...
+└───utils
+│   │  label_generator.py
+│   │  labels.txt 
+│   │  requirements.txt
+│   
+│   
+|   .gitignore
+|    CITATION.cff
+|    LICENSE
+|    README.md
+```
 
 
-## DIRECTORY STRUCTURE:
 
-
-NITRDrone Dataset-----|<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--------Images <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--------RGB_GT  <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       |<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      |--------GT     <br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      |<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       |--------utils   <br />
 
 DESCRIPTION:<br />
 |Folder Name| Description |
 |---|---|
-| Images  | Contains the aerial images captured by DJI Phantom 4 drone  |
-| RGB_GT  | Contains the RGB masks which are generated after annotations  |
-|  GT      | Contains the one-hot code images      |
-| utils  | Contains the important files related to dataset preparation  |
+| Images  | Sample aerial images captured by DJI Phantom 4 drone  |
+| RGB_GT  | RGB masks of the corresponding images generated after annotations  |
+|  GT      | Gray scale masks of the corresponding images     |
+| utils  | Important files related to dataset preparation  |
 
 ## Sample Images
 <table>
@@ -66,7 +89,7 @@ DESCRIPTION:<br />
 This dataset is licenensed to Visual Surveillance Laboratory, Department of Computer Science and Engineering, National Institute of Technology, Rourkela, India. 
 
 ## Citation & Acknowledgements
-This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published in the README, please use the following BibTeX entry.
+This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published in the README, please cite the work from Cite this repository .
 
 
 
