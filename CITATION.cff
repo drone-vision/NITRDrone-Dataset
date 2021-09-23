@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Behera"
+  given-names: "Tanmay Kumar"
+  
+- family-names: "Bakshi"
+  given-names: "Sambit"
+
+- family-names: "Sa"
+  given-names: "Pankaj Kumar"
+  
+- family-names: "Nappi"
+  given-names: "Miachel"
+  
+title: "NITRDrone Dataset"
+version: 1.0
+date-released: 2021-09-23
+url: "https://github.com/drone-vision/NITRDrone-Dataset"
