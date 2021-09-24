@@ -26,6 +26,8 @@ This is an aerial image dataset for semantic scene understanding and is under de
 NITRDrone Dataset
 │
 └─── readme_images
+|
+└─────────data
 │          |
 │          └─── train
 |          |       └───| images 
@@ -44,12 +46,13 @@ NITRDrone Dataset
 │   │  label_generator.py
 │   │  labels.txt 
 │   │  requirements.txt
-│   
+│   ...
 │   
 |   .gitignore
 |    CITATION.cff
 |    LICENSE
 |    README.md
+|   ...
 ```
 
 
