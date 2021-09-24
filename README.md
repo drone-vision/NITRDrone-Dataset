@@ -27,13 +27,18 @@ NITRDrone Dataset
 │
 └─── readme_images
 │          |
-│          └─── images
-|          |      
-|          └─── seg_class
+│          └─── train
+|          |       └───| images 
+|          |       └───| gray_masks
+|          |       └───| rgb_masks
+|          └───   val
+|          |       └───| images 
+|          |       └───| gray_masks
+|          |       └───| rgb_masks
 |          |        
-|          |   .gitignore
+|          |    .gitignore
 |          | 
-|          |    frame271.jpg
+|          |     frame271.jpg
 |          ...
 └───utils
 │   │  label_generator.py
