@@ -81,7 +81,7 @@ DESCRIPTION:<br />
 
 ## Download Link:
 - NITRDrone(4): (train+val) <br />
-[GDrive](https://drive.google.com/drive/folders/1-w4hGLcrx6pfWVX4NR80nf7fKSE7_Gj0?usp=sharing)
+[GDrive](https://drive.google.com/drive/folders/1IQUadXFpEFEsB_9I5JVUuGJBjqIL5MFG?usp=sharing)
 
 
 ## LICENSE:
