@@ -58,9 +58,11 @@ NITRDrone Dataset
 DESCRIPTION:<br />
 |Folder Name| Description |
 |---|---|
-| Images  | Sample aerial images captured by DJI Phantom 4 drone  |
-| RGB_GT  | RGB masks of the corresponding images generated after annotations  |
-|  GT      | Gray scale masks of the corresponding images     |
+| train| contains three folders as images, rgb_masks, gray_masks|
+| val| contains three folders as images, rgb_masks, gray_masks|
+| images  | Aerial images captured by DJI Phantom 4 drone  |
+| rgb_masks | RGB masks of the corresponding images generated after annotations  |
+|  gray_masks    | Gray scale masks of the corresponding images     |
 | utils  | Important files related to dataset preparation  |
 
 ## Sample Images
