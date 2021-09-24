@@ -89,7 +89,19 @@ DESCRIPTION:<br />
 This dataset is licenensed to Visual Surveillance Laboratory, Department of Computer Science and Engineering, National Institute of Technology, Rourkela, India. 
 
 ## Citation & Acknowledgements
-This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published in the README, please cite the work from Cite this repository .
+This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published in the README, please cite the work from Cite this repository as:
 
 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" /> 
+</head>
+<body>
+<!-- <h1 id="bibliography" class="unnumbered">Bibliography</h1> -->
+<div id="refs" class="references">
+<div id="ref-behera2021nitrdd">
+<p>Tanmay Kumar Behera, Sambit Bakshi, Pankaj Kumar Sa, and Michael Nappi. 2021. “NITRDrone Dataset: A Dataset for Aerial Scene Understanding for Road Extraction”, <em>GitHub. 2021-09-23,</em> https://github.com/drone-vision/NITRDrone-Dataset.</p>
+</div>
 
+
+</body>
