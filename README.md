@@ -102,11 +102,11 @@ This dataset is licenensed to Visual Surveillance Laboratory, Department of Comp
 
  This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published    in the README, please cite the work from Cite this repository as:
 
-    @misc{nitrdd2021,</br>
-        title={NITRDrone Dataset},</br>
-        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar, Michael Nappi},</br>
-        howpublished = {\url{https://github.com/drone-vision/NITRDrone-Dataset}},</br>
-        year={2021},</br>
+    @misc{nitrdd2021,
+        title={NITRDrone Dataset},
+        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar, Michael Nappi},
+        howpublished = {\url{https://github.com/drone-vision/NITRDrone-Dataset}},
+        year={2021}
      }
    
 
