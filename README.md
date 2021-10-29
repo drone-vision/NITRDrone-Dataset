@@ -18,10 +18,10 @@ This is an aerial image dataset for semantic scene understanding and is under de
 | class  | GT  | (R, G, B)  |
 |---|---|---|
 | _background_ | 0   | (0, 0, 0)  |
-| road |  1 |  (128, 0, 0) |
-| occluded_road |  2 | (0, 128, 0)  |
-| vegetation |  3 | (128, 128, 0)  |
-## DIrectory Structure:
+| _road_ |  1 |  (128, 0, 0) |
+| _occluded_road_ |  2 | (0, 128, 0)  |
+| _vegetation_ |  3 | (128, 128, 0)  |
+## Directory Structure:
 ```
 NITRDrone Dataset
 │
@@ -67,6 +67,24 @@ DESCRIPTION:<br />
 | rgb_masks | RGB masks of the corresponding images generated after annotations  |
 |  gray_masks    | Gray scale masks of the corresponding images     |
 | utils  | Important files related to dataset preparation  |
+
+
+
+## Benchmark
+The benchmark is released to look for better solutions for the proposed dataset **(NITRDD)**. The performance metrics that are used OA (Overall Accuracy/pixelwise accuracy), mIoU (mean Intersection over Union).
+Researchers are welcomed to contribute new results!
+
+-Obtained Results (NITRDD(4))
+| Models  | #Parameters  | OA | mIoU |
+|---------|--------------|----|------|
+|FCN-8s   |   136*M*           |  0.72  |  0.16     |
+|FCN-16s   |  134*M*            | 0.83   | 0.68     |
+|FCN-32s   |  134*M*            | 0.86   | 0.63     |
+|FCN_Densenet_103   |  9.42*M* | 0.91   | 0.62     |
+|E-Net   |     350.65*K*         | 0.89   | 0.65    |
+|LinkNet   |   1.15*M*           | 0.93  |  0.46    |
+
+
 
 ## Sample Images
 <table>
