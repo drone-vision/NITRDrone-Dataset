@@ -122,7 +122,7 @@ This dataset is licenensed to Visual Surveillance Laboratory, Department of Comp
 
     @misc{nitrdd2021,
         title={NITRDrone Dataset},
-        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar, Michael Nappi},
+        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar and Nappi, Michael and Castiglione, Aniello and Vijayakumar, Pandi   and Gupta, Brij},
         howpublished = {\url{https://github.com/drone-vision/NITRDrone-Dataset}},
         year={2021}
      }
