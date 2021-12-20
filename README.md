@@ -80,7 +80,7 @@ Researchers are welcomed to contribute new results!
 |FCN-8s   |   136*M*           |  0.72  |  0.16     |
 |FCN-16s   |  134*M*            | 0.83   | 0.68     |
 |FCN-32s   |  134*M*            | 0.86   | 0.63     |
-|FCN_Densenet_103   |  9.42*M* | 0.91   | 0.62     |
+|FC_Densenet_103   |  9.42*M* | 0.91   | 0.62     |
 |E-Net   |     350.65*K*         | 0.89   | 0.65    |
 |LinkNet   |   1.15*M*           | 0.93  |  0.46    |
 
