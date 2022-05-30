@@ -120,11 +120,12 @@ This dataset is licenensed to Visual Surveillance Laboratory, Department of Comp
 
  This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published    in the README, please cite the work from Cite this repository as:
 
-    @misc{nitrdd2021,
+    @article{nitrdd2021,
         title={The NITRDrone Dataset to Address the Challenges for Road Extraction from Aerial Images},
         author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar and Nappi, Michael and Castiglione, Aniello and Vijayakumar, Pandi   and Gupta, Brij},
         
-        howpublished = {Journal of Signal Processing Systems, Springer},
+        journal = {Journal of Signal Processing Systems},
+        publisher={Springer},
         year={2021}
      }
    
