@@ -122,8 +122,7 @@ This dataset is licenensed to Visual Surveillance Laboratory, Department of Comp
 
     @article{nitrdd2021,
         title={The NITRDrone Dataset to Address the Challenges for Road Extraction from Aerial Images},
-        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar and Nappi, Michael and Castiglione, Aniello and Vijayakumar, Pandi   and Gupta, Brij},
-        
+        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar and Nappi, Michael and Castiglione, Aniello and Vijayakumar, Pandi   and Gupta, Brij},        
         journal = {Journal of Signal Processing Systems},
         publisher={Springer},
         year={2021}
