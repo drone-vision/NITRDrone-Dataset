@@ -125,7 +125,8 @@ This dataset is licenensed to Visual Surveillance Laboratory, Department of Comp
         author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar and Nappi, Michael and Castiglione, Aniello and Vijayakumar, Pandi   and Gupta, Brij},        
         journal = {Journal of Signal Processing Systems},
         publisher={Springer},
-        year={2021}
+        year={2021}, 
+        note = "doi:10.1007/s11265-022-01777-0"
      }
    
 
